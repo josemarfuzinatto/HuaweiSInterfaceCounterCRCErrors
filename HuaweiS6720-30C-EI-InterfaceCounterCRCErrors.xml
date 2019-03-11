@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-03-11T17:04:46Z</date>
+    <date>2019-03-11T17:48:28Z</date>
     <groups>
         <group>
             <name>Switches</name>
@@ -13,9 +13,9 @@
             <name>Huawei S6720-30C-EI Interface Counter CRC Errors</name>
             <description>English:&#13;
 Count CRC errors interface switches S Huawei and perform triggers.&#13;
-if last reading has a difference of 10, will perform trigger information&#13;
-if last reading has a difference of 100, will perform trigger warning&#13;
-if last reading has a difference of 1000, will perform trigger high&#13;
+if last reading has a increasing of 10, will perform trigger information&#13;
+if last reading has a increasing of 100, will perform trigger warning&#13;
+if last reading has a increasing of 1000, will perform trigger high&#13;
 &#13;
 Portuguese:&#13;
 Conta CRC erros das interfaces de switches huawei S e dispara triggers.&#13;
@@ -1460,11 +1460,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface 40ge1</name>
+                    <name>Increasing CRC Errors Interface 40ge1</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.40ge1</key>
+                    <key>increasing.counter.errors.40ge1</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1515,11 +1515,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface 40ge2</name>
+                    <name>Increasing CRC Errors Interface 40ge2</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.40ge2</key>
+                    <key>increasing.counter.errors.40ge2</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1570,11 +1570,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge1</name>
+                    <name>Increasing CRC Errors Interface xge1</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge1</key>
+                    <key>increasing.counter.errors.xge1</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1625,11 +1625,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge2</name>
+                    <name>Increasing CRC Errors Interface xge2</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge2</key>
+                    <key>increasing.counter.errors.xge2</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1680,11 +1680,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge3</name>
+                    <name>Increasing CRC Errors Interface xge3</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge3</key>
+                    <key>increasing.counter.errors.xge3</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1735,11 +1735,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge4</name>
+                    <name>Increasing CRC Errors Interface xge4</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge4</key>
+                    <key>increasing.counter.errors.xge4</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1790,11 +1790,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge5</name>
+                    <name>Increasing CRC Errors Interface xge5</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge5</key>
+                    <key>increasing.counter.errors.xge5</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1845,11 +1845,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge6</name>
+                    <name>Increasing CRC Errors Interface xge6</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge6</key>
+                    <key>increasing.counter.errors.xge6</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1900,11 +1900,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge7</name>
+                    <name>Increasing CRC Errors Interface xge7</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge7</key>
+                    <key>increasing.counter.errors.xge7</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1955,11 +1955,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge8</name>
+                    <name>Increasing CRC Errors Interface xge8</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge8</key>
+                    <key>increasing.counter.errors.xge8</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2010,11 +2010,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge9</name>
+                    <name>Increasing CRC Errors Interface xge9</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge9</key>
+                    <key>increasing.counter.errors.xge9</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2065,11 +2065,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge10</name>
+                    <name>Increasing CRC Errors Interface xge10</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge10</key>
+                    <key>increasing.counter.errors.xge10</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2120,11 +2120,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge11</name>
+                    <name>Increasing CRC Errors Interface xge11</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge11</key>
+                    <key>increasing.counter.errors.xge11</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2175,11 +2175,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge12</name>
+                    <name>Increasing CRC Errors Interface xge12</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge12</key>
+                    <key>increasing.counter.errors.xge12</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2230,11 +2230,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge13</name>
+                    <name>Increasing CRC Errors Interface xge13</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge13</key>
+                    <key>increasing.counter.errors.xge13</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2285,11 +2285,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge14</name>
+                    <name>Increasing CRC Errors Interface xge14</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge14</key>
+                    <key>increasing.counter.errors.xge14</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2340,11 +2340,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge15</name>
+                    <name>Increasing CRC Errors Interface xge15</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge15</key>
+                    <key>increasing.counter.errors.xge15</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2395,11 +2395,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge16</name>
+                    <name>Increasing CRC Errors Interface xge16</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge16</key>
+                    <key>increasing.counter.errors.xge16</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2450,11 +2450,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge17</name>
+                    <name>Increasing CRC Errors Interface xge17</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge17</key>
+                    <key>increasing.counter.errors.xge17</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2505,11 +2505,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge18</name>
+                    <name>Increasing CRC Errors Interface xge18</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge18</key>
+                    <key>increasing.counter.errors.xge18</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2560,11 +2560,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge19</name>
+                    <name>Increasing CRC Errors Interface xge19</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge19</key>
+                    <key>increasing.counter.errors.xge19</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2615,11 +2615,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge20</name>
+                    <name>Increasing CRC Errors Interface xge20</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge20</key>
+                    <key>increasing.counter.errors.xge20</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2670,11 +2670,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge21</name>
+                    <name>Increasing CRC Errors Interface xge21</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge21</key>
+                    <key>increasing.counter.errors.xge21</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2725,11 +2725,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge22</name>
+                    <name>Increasing CRC Errors Interface xge22</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge22</key>
+                    <key>increasing.counter.errors.xge22</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2780,11 +2780,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge23</name>
+                    <name>Increasing CRC Errors Interface xge23</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge23</key>
+                    <key>increasing.counter.errors.xge23</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2835,11 +2835,11 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <master_item/>
                 </item>
                 <item>
-                    <name>Difference CRC Errors Interface xge24</name>
+                    <name>Increasing CRC Errors Interface xge24</name>
                     <type>15</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>difference.counter.errors.xge24</key>
+                    <key>increasing.counter.errors.xge24</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -4981,7 +4981,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface 40ge1</name>
+            <name>Increasing CRC Errors Interface 40ge1</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5007,13 +5007,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.40ge1</key>
+                        <key>increasing.counter.errors.40ge1</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface 40ge2</name>
+            <name>Increasing CRC Errors Interface 40ge2</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5039,13 +5039,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.40ge2</key>
+                        <key>increasing.counter.errors.40ge2</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge1</name>
+            <name>Increasing CRC Errors Interface xge1</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5071,13 +5071,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge1</key>
+                        <key>increasing.counter.errors.xge1</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge2</name>
+            <name>Increasing CRC Errors Interface xge2</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5103,13 +5103,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge2</key>
+                        <key>increasing.counter.errors.xge2</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge3</name>
+            <name>Increasing CRC Errors Interface xge3</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5135,13 +5135,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge3</key>
+                        <key>increasing.counter.errors.xge3</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge4</name>
+            <name>Increasing CRC Errors Interface xge4</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5167,13 +5167,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge4</key>
+                        <key>increasing.counter.errors.xge4</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge5</name>
+            <name>Increasing CRC Errors Interface xge5</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5199,13 +5199,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge5</key>
+                        <key>increasing.counter.errors.xge5</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge6</name>
+            <name>Increasing CRC Errors Interface xge6</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5231,13 +5231,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge6</key>
+                        <key>increasing.counter.errors.xge6</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge7</name>
+            <name>Increasing CRC Errors Interface xge7</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5263,13 +5263,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge7</key>
+                        <key>increasing.counter.errors.xge7</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge8</name>
+            <name>Increasing CRC Errors Interface xge8</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5295,13 +5295,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge8</key>
+                        <key>increasing.counter.errors.xge8</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge9</name>
+            <name>Increasing CRC Errors Interface xge9</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5327,13 +5327,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge9</key>
+                        <key>increasing.counter.errors.xge9</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge10</name>
+            <name>Increasing CRC Errors Interface xge10</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5359,13 +5359,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge10</key>
+                        <key>increasing.counter.errors.xge10</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge11</name>
+            <name>Increasing CRC Errors Interface xge11</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5391,13 +5391,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge11</key>
+                        <key>increasing.counter.errors.xge11</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge12</name>
+            <name>Increasing CRC Errors Interface xge12</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5423,13 +5423,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge12</key>
+                        <key>increasing.counter.errors.xge12</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge13</name>
+            <name>Increasing CRC Errors Interface xge13</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5455,13 +5455,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge13</key>
+                        <key>increasing.counter.errors.xge13</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge14</name>
+            <name>Increasing CRC Errors Interface xge14</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5487,13 +5487,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge14</key>
+                        <key>increasing.counter.errors.xge14</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge15</name>
+            <name>Increasing CRC Errors Interface xge15</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5519,13 +5519,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge15</key>
+                        <key>increasing.counter.errors.xge15</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge16</name>
+            <name>Increasing CRC Errors Interface xge16</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5551,13 +5551,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge16</key>
+                        <key>increasing.counter.errors.xge16</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge17</name>
+            <name>Increasing CRC Errors Interface xge17</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5583,13 +5583,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge17</key>
+                        <key>increasing.counter.errors.xge17</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge18</name>
+            <name>Increasing CRC Errors Interface xge18</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5615,13 +5615,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge18</key>
+                        <key>increasing.counter.errors.xge18</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge19</name>
+            <name>Increasing CRC Errors Interface xge19</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5647,13 +5647,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge19</key>
+                        <key>increasing.counter.errors.xge19</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge20</name>
+            <name>Increasing CRC Errors Interface xge20</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5679,13 +5679,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge20</key>
+                        <key>increasing.counter.errors.xge20</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge21</name>
+            <name>Increasing CRC Errors Interface xge21</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5711,13 +5711,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge21</key>
+                        <key>increasing.counter.errors.xge21</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge22</name>
+            <name>Increasing CRC Errors Interface xge22</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5743,13 +5743,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge22</key>
+                        <key>increasing.counter.errors.xge22</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge23</name>
+            <name>Increasing CRC Errors Interface xge23</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5775,13 +5775,13 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge23</key>
+                        <key>increasing.counter.errors.xge23</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Difference CRC Errors Interface xge24</name>
+            <name>Increasing CRC Errors Interface xge24</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -5807,7 +5807,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <type>0</type>
                     <item>
                         <host>Huawei S6720-30C-EI Interface Counter CRC Errors</host>
-                        <key>difference.counter.errors.xge24</key>
+                        <key>increasing.counter.errors.xge24</key>
                     </item>
                 </graph_item>
             </graph_items>
