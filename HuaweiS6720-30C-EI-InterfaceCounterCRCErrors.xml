@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-03-11T17:48:28Z</date>
+    <date>2019-03-11T20:28:47Z</date>
     <groups>
         <group>
             <name>Switches</name>
@@ -1465,7 +1465,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.40ge1</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1520,7 +1520,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.40ge2</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1575,7 +1575,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge1</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1630,7 +1630,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge2</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1685,7 +1685,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge3</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1740,7 +1740,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge4</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1795,7 +1795,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge5</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1850,7 +1850,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge6</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1905,7 +1905,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge7</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1960,7 +1960,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge8</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2015,7 +2015,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge9</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2070,7 +2070,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge10</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2125,7 +2125,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge11</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2180,7 +2180,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge12</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2235,7 +2235,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge13</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2290,7 +2290,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge14</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2345,7 +2345,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge15</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2400,7 +2400,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge16</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2455,7 +2455,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge17</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2510,7 +2510,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge18</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2565,7 +2565,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge19</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2620,7 +2620,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge20</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2675,7 +2675,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge21</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2730,7 +2730,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge22</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2785,7 +2785,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge23</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2840,7 +2840,7 @@ caso for mais que 1000 entre ultima leitura e penultima dispara trigger high</de
                     <snmp_community/>
                     <snmp_oid/>
                     <key>increasing.counter.errors.xge24</key>
-                    <delay>30s</delay>
+                    <delay>300s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
